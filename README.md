@@ -29,8 +29,9 @@ All commands by default begin with "$" and some end in "%". These can be changed
 - If the user running the bot adds an instance of it to multiple servers, it may share the same data structure with the other servers.
     - Users may see names they don't recognize from their server when checking the leaderboard.
 - The bot will create a json file to save, update, and load user profiles where the bot is being run.
-    - The json file is editable by the one running the code, be careful however becuase if you mess up the formatting, it may throw an error trying to load,              update, or save profiles. So it is highly advised against.
+    - The json file is editable by the one running the code, be careful however because if you mess up the formatting, it may throw an error trying to load,              update, or save profiles. So it is highly advised against.
     - The bot will save profiles every hour. In case bot is down, just run the code again and it should reload all user profiles.
+    - Profiles are saved in order of balance from highest to lowest.
 - This code is free to use, just please don't try to pass it off as your own. That will make me sad.
     - It is advised that you have at least some programming knowledge before trying to change the code. That doesn't mean you can't try though.
     - With the code being free to use, that means you may modify/improve it on your own.
